@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#888888"
+    android:orientation="vertical">
+
+    <com.xyz.weight.AutoScrollTextView
+        android:id="@+id/auto_tv_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="100dp"
+        android:background="#FFFFFF"
+        android:gravity="center_vertical"
+        app:animDuration="300"
+        app:padding="10dp"
+        app:scrollDuration="3000"
+        app:textColor="#000000"
+        app:textSize="8sp" />
+
+    <com.xyz.weight.AutoScrollTextView
+        android:id="@+id/auto_tv_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#FFFFFF"
+        android:gravity="center_vertical"
+        app:animDuration="300"
+        app:padding="10dp"
+        app:scrollDuration="3000"
+        app:textColor="#000000"
+        app:textSize="8sp" />
+</LinearLayout>

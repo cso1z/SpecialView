@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#777777"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/item_auto_scroll_tv"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/white_round_bg"
+        android:gravity="center"
+        android:text="竖直滚动TextView" />
+</LinearLayout>
